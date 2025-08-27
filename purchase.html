@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Purchase Form</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"/>
+  <style>
+    body {
+      background-color: #111;
+      font-family: Arial, sans-serif;
+      color: #fff;
+      margin: 0;
+      padding: 0;
+    }
+
+    .purchase-container {
+      max-width: 600px;
+      margin: 60px auto;
+      background: #1c1c1c;
+      padding: 40px;
+      border-radius: 12px;
+      box-shadow: 0 0 20px rgba(255, 255, 255, 0.05);
+    }
+
+    h2 {
+      text-align: center;
+      color: #f44336;
+      margin-bottom: 10px;
+    }
+
+    p {
+      text-align: center;
+      color: #ccc;
+      margin-bottom: 30px;
+    }
+
+    label {
+      display: block;
+      margin-top: 20px;
+      margin-bottom: 5px;
+      color: #ddd;
+    }
+
+    input, select {
+      width: 100%;
+      padding: 12px;
+      background-color: #333;
+      color: #fff;
+      border: none;
+      border-radius: 8px;
+      font-size: 16px;
+    }
+
+    input:focus, select:focus {
+      outline: 2px solid #f44336;
+    }
+
+    .submit-btn {
+      margin-top: 30px;
+      width: 100%;
+      background-color: #f44336;
+      padding: 14px;
+      border: none;
+      border-radius: 8px;
+      color: #fff;
+      font-size: 16px;
+      cursor: pointer;
+      transition: background 0.3s ease;
+    }
+
+    .submit-btn:hover {
+      background-color: #d32f2f;
+    }
+
+    .back-link {
+      display: block;
+      margin-top: 20px;
+      text-align: center;
+      color: #999;
+      text-decoration: none;
+    }
+
+    .back-link:hover {
+      color: #fff;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="purchase-container">
+    <h2>Confirm Your Purchase</h2>
+    <p>Please fill in your details below</p>
+
+    <form action="#" method="post">
+      <label for="name">Full Name:</label>
+      <input type="text" id="name" name="name" placeholder="Alex Tan" required>
+
+      <label for="email">Email Address:</label>
+      <input type="email" id="email" name="email" placeholder="alex@email.com" required>
+
+      <label for="package">Select Package:</label>
+      <select id="package" name="package" required>
+        <option value="" disabled selected>-- Choose a Package --</option>
+        <option>Fitness Mapping (RM60)</option>
+        <option>BodyFit (RM240)</option>
+        <option>PowerStart (RM680)</option>
+        <option>Partner Start (RM120)</option>
+        <option>Partner Boost (RM420)</option>
+        <option>Partner Power (RM960)</option>
+        <option>HIIT Starter (RM80)</option>
+        <option>HIIT Builder (RM400)</option>
+        <option>HIIT Advanced (RM800)</option>
+        <option>Yoga Starter (RM88)</option>
+        <option>Yoga Flow (RM260)</option>
+        <option>Yoga Deep (RM480)</option>
+        <option>Spin Starter (RM98)</option>
+        <option>Spin Power (RM260)</option>
+        <option>Spin Pro (RM480)</option>
+        <option>Trampoline Starter (RM98)</option>
+        <option>Trampoline Power (RM280)</option>
+        <option>Trampoline Extreme (RM500)</option>
+        <option>Mental Wellness Talk (RM100)</option>
+        <option>Weekly Nutrition Plan (RM120)</option>
+        <option>Monthly Nutrition (RM350)</option>
+      </select>
+
+      <label for="payment">Payment Method:</label>
+      <select id="payment" name="payment" required>
+        <option value="" disabled selected>-- Select Method --</option>
+        <option>Credit / Debit Card</option>
+        <option>Online Banking</option>
+        <option>eWallet (Grab, TNG, Boost)</option>
+      </select>
+
+      <button type="submit" class="submit-btn">Submit Purchase</button>
+    </form>
+
+    <a href="member.html" class="back-link">← Back to Packages</a>
+  </div>
+
+</body>
+</html>

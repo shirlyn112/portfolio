@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Classes & Events</title>
+  <link rel="stylesheet" href="classes.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+</head>
+<body>
+
+  <!-- 顶部联系方式与社交图标 -->
+  <div class="top-bar">
+    <div class="contact">
+      <i class="fas fa-phone"></i> +60-13456789
+    </div>
+    <div class="social-icons">
+      <a href="#"><i class="fab fa-facebook-f"></i></a>
+      <a href="#"><i class="fab fa-twitter"></i></a>
+      <a href="#"><i class="fab fa-instagram"></i></a>
+    </div>
+  </div>
+
+  <!-- 页首标题 -->
+  <header>
+    <h1><i><b>RushFit</b></i></h1>
+  </header>
+
+ <!-- 导航栏 -->
+  <nav>
+    <a href="home page.html">Home</a>
+    <a href="About us.html">About Us</a>
+    <a href="health.html">Health Programs</a>
+    <a href="classes.html" class="active">Classes & Events</a>
+    <a href="trainer.html">Trainer Profiles</a>
+    <a href="member.html">Membership & Services</a>
+  </nav>
+
+<!-- 课程和event -->
+
+<section class="classes-events">
+  <div class="section-header">
+    <h3>CLASSES & EVENTS</h3>
+  </div>
+
+
+
+
+<div class="class-cards">
+
+<!-- Free trial -->
+  <div class="class-card">
+      <div class="class-img">
+        <img src="main.jpg" alt="Spinning Class">
+      </div>
+      <div class="class-content">
+        <h3>Free trial</h3>
+        <p>🔥 Level: Beginner<br>🕒 First time classes (1 hour) </p>
+        <a href="#" class="register-btn" style="display: inline-block; text-align: left;">Register</a>
+      </div>
+    </div>
+
+
+
+<!-- Personal Trainer -->
+<div class="class-card">
+  <div class="class-img">
+    <img src="personal t.png" alt="Personal Trainer">
+  </div>
+  <div class="class-content">
+    <h3>Personal Trainer</h3>
+    <p>🔥 Level: Beginner<br>🕒 Flexible scheduling</p>
+    <a href="member.html#trainer" class="register-btn" style="display: inline-block; text-align: left;">REGISTER</a>
+  </div>
+</div>
+
+
+<!-- YOGA -->
+  <div class="class-card">
+    <div class="class-img">
+        <img src="yoga.png" alt="Yoga Class">
+      </div>
+      <div class="class-content">
+        <h3>Yoga for Beginners</h3>
+        <p>🧘 Level: Beginner<br>🕒 Every Monday & Thursday, 6pm</p>
+        <a href="member.html#yoga" class="register-btn" style="display: inline-block; text-align: left;">Register</a>
+      </div>
+   </div>
+
+<!-- HIIT -->
+ <div class="class-card">
+    <div class="class-img">
+       <img src="hiit.png" alt="HIIT Class">
+      </div>
+      <div class="class-content">
+        <h3>HIIT Bootcamp</h3>
+        <p>🔥 Level: Intermediate<br>🕒 Saturday 10AM</p>
+        <a href="member.html#hiit" class="register-btn" style="display: inline-block; text-align: left;">Register</a>
+
+      </div>
+    </div>
+
+<!-- SPINNING -->
+  <div class="class-card">
+      <div class="class-img">
+        <img src="spinning.png" alt="Spinning Class">
+      </div>
+      <div class="class-content">
+        <h3>Spinning Challenge</h3>
+        <p>🚴 Level: Advanced<br>🕒 Wednesday 7PM</p>
+        <a href="member.html#spin" class="register-btn" style="display: inline-block; text-align: left;">Register</a>
+
+      </div>
+    </div>
+
+
+<!-- JUMPPING -->
+  <div class="class-card">
+      <div class="class-img">
+        <img src="jumping.jpg" alt="Spinning Class">
+      </div>
+      <div class="class-content">
+        <h3>Trampoline Fitness</h3>
+        <p>🚴 Level: Advanced<br>🕒 Tuesday 8PM</p>
+        <a href="member.html#trampolin" class="register-btn" style="display: inline-block; text-   align: left;">Register</a>
+
+      </div>
+    </div>
+
+
+
+
+
+  </div>
+</section>
+
+
+<!-- VIDEO -->
+<br>
+<section class="classes-events2">
+  <div class="section-header">
+    <h3>A minutes to healthy lifestyle</h3>
+    <br></br><p>Explore our upcoming bootcamps, group workouts, and exclusive training events!</p>
+  </div>
+
+
+<div class="video-cards">
+
+<!-- YOGA Video -->
+
+<div class="video-card">
+    <div class="video-wrapper" onmouseenter="playVideo(this)" onmouseleave="pauseVideo(this)">
+      <iframe src="https://www.youtube.com/embed/hNCqIgl7Pjc?enablejsapi=1&mute=1"
+                title="Yoga Flow"
+                frameborder="0"
+                allow="autoplay; encrypted-media"
+                allowfullscreen></iframe>
+      </div>
+    <div class="video-info">
+      <span class="tag Beginner">Beginner</span>
+      <h3>Morning Yoga Flow</h3>
+      <p>Relax, breathe, and energize your body in just 10 minutes.</p>
+       <a href="https://www.youtube.com/watch?v=hNCqIgl7Pjc" class="watch-link" target="_blank">Watch on YouTube</a>
+      </div>
+    </div>
+
+<!-- HIIT -->
+
+  <div class="video-card">
+    <div class="video-wrapper" onmouseenter="playVideo(this)" onmouseleave="pauseVideo(this)">
+      <iframe src="https://www.youtube.com/embed/W4eKVKwf3rQ"
+                title="Full body hiit"
+                frameborder="0"
+                allow="autoplay; encrypted-media"
+                allowfullscreen></iframe>
+      </div>
+    <div class="video-info">
+      <span class="tag Intermediate">Intermediate</span>
+      <h3>Full body 30min HIIT </h3>
+      <p>Boost your heart rate and torch calories with this 30-minute high-intensity workout.</p>
+       <a href="https://www.youtube.com/watch" class="watch-link" target="_blank">Watch on YouTube</a>
+      </div>
+    </div>
+
+<!-- Jumpping -->
+
+<div class="video-card">
+    <div class="video-wrapper" onmouseenter="playVideo(this)" onmouseleave="pauseVideo(this)">
+      <iframe src="https://www.youtube.com/embed/Jqd3PfXakvA"
+                title="Spinning 1hour"
+                frameborder="0"
+                allow="autoplay; encrypted-media"
+                allowfullscreen></iframe>
+      </div>
+
+   <div class="video-info">
+      <span class="tag Advanced">Advanced</span>
+      <h3>Trampoline Fitness</h3>
+      <p>Bounce your way to better cardio, core, and balance in this fun trampoline workout.</p>
+      <a href="https://www.youtube.com/shorts/Jqd3PfXakvA" target="_blank">Watch on YouTube</a>
+      </div>
+    </div>
+  
+<!-- Spinning -->
+
+<div class="video-card">
+    <div class="video-wrapper" onmouseenter="playVideo(this)" onmouseleave="pauseVideo(this)">
+      <iframe src="https://www.youtube.com/embed/lUpaE8k9RMY"
+                title="Spinning 1hour"
+                frameborder="0"
+                allow="autoplay; encrypted-media"
+                allowfullscreen></iframe>
+      </div>
+
+   <div class="video-info">
+      <span class="tag Advanced">Advanced</span>
+      <h3>Spinning Power Ride</h3>
+      <p>Ride along with high-energy music and fat-burning moves!</p>
+      <a href="https://www.youtube.com/watch?v=lUpaE8k9RMY" class="watch-link" target="_blank">Watch on YouTube</a>
+      </div>
+    </div>
+ 
+
+ <div class="more-button-container">
+    <a href="all-videos.html" class="more-button">More Videos →</a>
+  </div>
+</div>
+</div>
+</section>
+
+
+<!-- 健康 -->
+
+<section class="wellness-section classes-events">
+  <div class="section-header3">
+    <h1>Wellness & Motivation</h1>
+    <p>Explore our wellness resources — from mental strength to physical energy</p>
+  </div>
+
+  <div class="wellness-cards">
+
+<!-- Card 1: Photo + Text -->
+    <div class="wellness-card">
+      <img src="counselling.png" alt="Mental Wellness">
+      <h3>Mental Health Support</h3>
+      <p>Discover how mindfulness, rest, and emotional care can improve your fitness journey. Find peace in every rep.</p>
+    </div>
+
+<!-- Card 2: YouTube Video Embed -->
+    <div class="wellness-card">
+      <iframe width="100%" height="180" 
+              src="https://www.youtube.com/embed/hNCqIgl7Pjc?rel=0&enablejsapi=1"
+              title="Wellness Video"
+              frameborder="0"
+              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen></iframe>
+      <br></br><h3>Mind-Body Connection</h3>
+      <p>This video guides you through breathing and light movements to reduce stress and elevate focus.</p>
+    </div>
+
+  </div>
+</section>
+
+
+
+
+
+
+
+<!-- 页脚 -->
+  <footer>
+    <p>&copy; 2025 RushFit. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
